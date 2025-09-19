@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingInline from '@/components/navigation/NavbarLayoutFloatingInline';
 import VoidHero from '@/components/sections/layouts/hero/VoidHero';
@@ -18,17 +18,15 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline 
           logoSrc="/images/logo.svg"
-          logoAlt="Xeven Solutions Logo"
           navItems={[
-            { name: '#hero', id: 'hero' },
-            { name: '#about', id: 'about' },
-            { name: '#how-to-buy', id: 'how-to-buy' },
-            { name: '#tokenomics', id: 'tokenomics' },
-            { name: '#faq', id: 'faq' },
-            { name: '#footer', id: 'footer' }
+            { name: 'hero', id: 'hero' },
+            { name: 'about', id: 'about' },
+            { name: 'how to buy', id: 'how-to-buy' },
+            { name: 'tokenomics', id: 'tokenomics' },
+            { name: 'faq', id: 'faq' },
+            { name: 'footer', id: 'footer' }
           ]}
           buttonText="Start Free Trial"
-          className="bg-transparent"
           buttonClassName="bg-blue-500 hover:bg-blue-700"
         />
       </div>
