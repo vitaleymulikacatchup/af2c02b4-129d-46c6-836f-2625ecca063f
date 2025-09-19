@@ -7,6 +7,7 @@ import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
 import FooterLogoEmphasis from '@/components/footer/FooterLogoEmphasis';
+import { Star, Shield, DollarSign } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -54,9 +55,9 @@ export default function Home() {
           title="Our Tokenomics"
           description="Transparent and strong economic model to support growth and sustainability."
           kpiItems={[
-            { value: '10M', description: 'Total Supply', longDescription: 'Amount of tokens minted', icon: 'Star' },
-            { value: '20%', description: 'Tax', longDescription: 'On each transaction', icon: 'Shield' },
-            { value: '50%', description: 'Liquidity', longDescription: 'Allocated for market stability', icon: 'DollarSign' },
+            { value: '10M', description: 'Total Supply', longDescription: 'Amount of tokens minted', icon: Star },
+            { value: '20%', description: 'Tax', longDescription: 'On each transaction', icon: Shield },
+            { value: '50%', description: 'Liquidity', longDescription: 'Allocated for market stability', icon: DollarSign },
           ]}
         />
       </div>
